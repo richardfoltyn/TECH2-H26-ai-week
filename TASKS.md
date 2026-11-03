@@ -74,7 +74,7 @@ Before performing the actual analysis, you need to drop or fill in missing obser
 
 1.  The numeracy questions are only asked the first time a respondent enters the survey and are missing
     in subsequent waves. For each individual, fill in the missing numeracy variables
-    (`num_lit_X_correct` where `X` is a number) using the values from the first observation.
+    (`num_lit_qX_correct` where `X` is a number) using the values from the first observation.
 
 2.  Drop all observations (rows) with missing values for the following variables:
     1.  Demographic information (gender, age, education)
@@ -199,20 +199,20 @@ Note: In this part, use monthly data only; individual-level SCE data is not need
 | inflation       | C   | Question: What do you expect the rate of inflation to be over the next 12 months? Please give your best guess. (in percent) |
 | house_price_change | C | Expected house price change over the next 12 months from the interview (in percent) |
 | prob_stocks_up     | C | Question: What do you think is the percent chance that 12 months from now, on average, stock prices in the U.S. stock market will be higher than they are now? (in percent) |
-| num_lit_1     | C | Question: In a sale, a shop is selling all items at half price. Before the sale, a sofa costs $300. How much will it cost in the sale? |
-| num_lit_2     | C | Question: Let's say you have $200 in a savings account. The account earns ten per cent interest per year, and interest accrues at each anniversary. If you never withdraw, how much will you have in the account at the end of two years? |
-| num_lit_3     | C | Question: In the BIG BUCKS LOTTERY, the chances of winning a $10.00 prize are 1%. What is your best guess about how many people would win a $10.00 prize if 1,000 people each buy a single ticket? |
-| num_lit_5     | C | Question: If the chance of getting a disease is 10 percent, how many people out of 1,000 would be expected to get the disease? |
-| num_lit_6     | C | Question: The chance of getting a viral infection is 0.0005. Out of 10,000 people, about how many of them are expected to get infected? |
-| num_lit_8     | O | Question: Imagine that the interest rate on your savings account was 1% per year and inflation was 2% per year. After one year, how much would you be able to buy with the money in this account? Answer Options: • More than today (1) • Exactly the same (2) • Less than today (3)|
-| num_lit_9     | O | Question: Please tell me whether this statement is true or false: Buying a single company’s stock usually provides a safer return than a stock mutual fund. Answer Options:  • True (1) • False (2) |
-| num_lit_1_correct | I | Indicator whether respondent correctly answered question num_lit_1 |
-| num_lit_2_correct | I | Indicator whether respondent correctly answered question num_lit_2 |
-| num_lit_3_correct | I | Indicator whether respondent correctly answered question num_lit_3 |
-| num_lit_5_correct | I | Indicator whether respondent correctly answered question num_lit_5 |
-| num_lit_6_correct | I | Indicator whether respondent correctly answered question num_lit_6 |
-| num_lit_8_correct | I | Indicator whether respondent correctly answered question num_lit_8 |
-| num_lit_9_correct | I | Indicator whether respondent correctly answered question num_lit_9 |
+| num_lit_q1     | C | Question: In a sale, a shop is selling all items at half price. Before the sale, a sofa costs $300. How much will it cost in the sale? |
+| num_lit_q2     | C | Question: Let's say you have $200 in a savings account. The account earns ten per cent interest per year, and interest accrues at each anniversary. If you never withdraw, how much will you have in the account at the end of two years? |
+| num_lit_q3     | C | Question: In the BIG BUCKS LOTTERY, the chances of winning a $10.00 prize are 1%. What is your best guess about how many people would win a $10.00 prize if 1,000 people each buy a single ticket? |
+| num_lit_q5     | C | Question: If the chance of getting a disease is 10 percent, how many people out of 1,000 would be expected to get the disease? |
+| num_lit_q6     | C | Question: The chance of getting a viral infection is 0.0005. Out of 10,000 people, about how many of them are expected to get infected? |
+| num_lit_q8     | O | Question: Imagine that the interest rate on your savings account was 1% per year and inflation was 2% per year. After one year, how much would you be able to buy with the money in this account? Answer Options: • More than today (1) • Exactly the same (2) • Less than today (3)|
+| num_lit_q9     | O | Question: Please tell me whether this statement is true or false: Buying a single company’s stock usually provides a safer return than a stock mutual fund. Answer Options:  • True (1) • False (2) |
+| num_lit_q1_correct | I | Indicator whether respondent correctly answered question num_lit_q1 |
+| num_lit_q2_correct | I | Indicator whether respondent correctly answered question num_lit_q2 |
+| num_lit_q3_correct | I | Indicator whether respondent correctly answered question num_lit_q3 |
+| num_lit_q5_correct | I | Indicator whether respondent correctly answered question num_lit_q5 |
+| num_lit_q6_correct | I | Indicator whether respondent correctly answered question num_lit_q6 |
+| num_lit_q8_correct | I | Indicator whether respondent correctly answered question num_lit_q8 |
+| num_lit_q9_correct | I | Indicator whether respondent correctly answered question num_lit_q9 |
 
 ## Reference
 
