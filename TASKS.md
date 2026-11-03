@@ -1,8 +1,4 @@
-# About the group term paper
-
--   Your solution needs to be submitted on Wiseflow.
--   Submissions are done in groups of 2-3 students. Cooperation across groups is not allowed.
--   Deadline: Wednesday, November 5 at 16:00. Late submissions will not be accepted.
+# TECH2 Term Paper (H25)
 
 ## Requirements
 
